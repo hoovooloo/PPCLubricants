@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	font-family: arial bold, arial, sans-serif;
+	font-size: .8em;
+}
+.container{ 
+    width: 1000px;
+    min-height: 800px;
+}
+.header{
+	width:1000px;
+	height: 200px;
+	background-color: #efeded; /*light gray color*/
+	display: block;
+}
+.body{
+	width:1000px;
+	height: 600;
+	background-color: black;
+	display: block;
+}
