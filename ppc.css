@@ -3,19 +3,35 @@ body{
 	font-family: arial bold, arial, sans-serif;
 	font-size: .8em;
 }
-.container{ 
+#container{ 
     width: 1000px;
     min-height: 800px;
 }
-.header{
+#header{
 	width:1000px;
 	height: 200px;
 	background-color: #efeded; /*light gray color*/
 	display: block;
 }
-.body{
+#body{
 	width:1000px;
 	height: 600;
 	background-color: black;
 	display: block;
 }
+	#body img{
+		width:375px;
+		height: 275px;
+		border: solid white 5px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 20px 20px 20px 40px;
+	}
+	#body-about{
+		width: 515px;
+		height: 285px;
+		background-color: gray;
+		display: inline-block;
+		vertical-align: top;
+		margin: 20px 40px 20px 0;
+	}
