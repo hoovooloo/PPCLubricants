@@ -4,6 +4,21 @@ body{
 	font-size: .8em;
 	color: black;
 }
+h1{
+	background-color: #ffd738;
+	font-size: 1em;
+	padding: 10px 0 10px 15px;
+	margin: 0;
+}
+h2{
+
+}
+h3{
+	color: #ffd738; /*YELLOW COLOR*/
+	}
+.strong{
+	font-weight: bold;
+}
 #container{ 
     width: 1000px;
     min-height: 800px;
@@ -20,7 +35,7 @@ body{
 	background-color: black;
 	display: block;
 }
-	#body img{
+	.big{
 		width:375px;
 		height: 275px;
 		border: solid white 5px;
@@ -35,9 +50,6 @@ body{
 		display: inline-block;
 		vertical-align: top;
 		margin: 20px 30px 20px 0;
-	}
-	h2{
-		color: #ffd738; /*YELLOW COLOR*/
 	}
 	.body-bottom-block{
 		width:220px;
@@ -56,10 +68,9 @@ body{
 		#body p{
 
 		}
-		h1{
-		background-color: #ffd738;
-		font-size: 1em;
-		padding: 10px 0 10px 15px;
-		margin-top: 0;
+		.body-bottom-block img{
+			width:220px;
+			height:100px;
+			margin: 0;
 		}
 		
