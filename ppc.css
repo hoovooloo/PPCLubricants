@@ -11,11 +11,27 @@ h1{
 	margin: 0;
 }
 h2{
-
+	font-size: 1.2em;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+	color:white;
 }
 h3{
 	color: #ffd738; /*YELLOW COLOR*/
-	}
+	font-size: .8em;
+	font-weight: normal;
+	padding-left: 30px;
+}
+h4{
+	font-size: 1.7em;
+	font-weight: bold;
+	width: 580px;
+	text-indent: 100px;
+	text-align: right;
+	display: inline-block;
+	padding-right: 30px;
+}
 .strong{
 	font-weight: bold;
 }
@@ -29,9 +45,15 @@ h3{
 	background-color: #efeded; /*light gray color*/
 	display: block;
 }
+	#header img{
+		display: inline-block;
+		vertical-align: top;
+		width: 360px;
+		padding-left: 20px;
+	}
 #body{
 	width:1000px;
-	height: 600;
+	min-height: 600;
 	background-color: black;
 	display: block;
 }
@@ -50,7 +72,12 @@ h3{
 		display: inline-block;
 		vertical-align: top;
 		margin: 20px 30px 20px 0;
+		background: linear-gradient(to right, #a8a7a3 , #485970); 
 	}
+		#body-about p{
+			padding: 0 20px 10px 20px;
+			color: white;
+		}
 	.body-bottom-block{
 		width:220px;
 		min-height: 150px;
