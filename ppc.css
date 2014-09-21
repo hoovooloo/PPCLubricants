@@ -55,23 +55,29 @@ h4{
 	ul{
 		vertical-align: top;
 		background-color: #efeded;
-		border: solid #c1bbbb 1px;
-		border-top: 0;
-		height: 35px;
+		height: 30px;
 		background: linear-gradient(#efeded 40%, #d6d6d6 60%); 
+	}
+	ul :first-child{
+		margin-right: 5px;
+		margin-left: 50px;
+	}
+	ul :last-child{
+		margin-right: 5px;
 	}
 	ul li{
-		display: inline;
+		display: inline-block;
 		text-decoration: none;
-		padding: 0 0 0 10px;
 		border-right: solid #c1bbbb 1px; 
-		background: linear-gradient(#efeded 40%, #d6d6d6 60%); 
-		height: 30px;
+		background: transparent;
+		height: 20px;
+		padding: 10px 10px 0 10px;
 	}
+		ul li:first-child{
+		border-left:solid #c1bbbb 1px;	
+		}
 		ul li:last-child{
-		border-right:#c1bbbb;	
-		padding: 0px 20px 0 10px;
-		margin-right: 5px;
+		border-right:solid #c1bbbb 1px;	
 		}
 #body{
 	width:1000px;
