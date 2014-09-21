@@ -4,6 +4,9 @@ body{
 	font-size: .8em;
 	color: black;
 }
+p{
+	padding: 0 20px 10px 20px;
+}
 h1{
 	background-color: #ffd738;
 	font-size: 1em;
@@ -32,6 +35,30 @@ h4{
 	display: inline-block;
 	padding-right: 30px;
 }
+button{
+	min-height: 30px;
+	min-width: 30px;
+	background-color: #ffd738;
+	font-size: 1em;
+	border: solid black 2px;
+	border-right: 0;
+	border-radius: 5px 0 0 5px; 
+	padding: 5px 10px 5px 20px;
+}
+	button :after{ /*arrow added to rightarrowdiv DIV*/
+	content:'';
+	display:block;
+	position:absolute;
+	top:10px;
+	left:100%; /*should be set to 100% */
+	width:0;
+	height:0;
+	border-color: transparent transparent transparent #ffd738; /*border color should be same as div div background color*/
+	border-style: solid;
+	border-width: 10px;/*
+	background-color: #ffd738;*/
+}
+
 .strong{
 	font-weight: bold;
 }
@@ -45,6 +72,7 @@ h4{
 	background-color: #efeded; /*light gray color*/
 	display: block;
 	background: linear-gradient(#efeded 20%, white 80%);
+	padding: 0;
 }
 	#header img{
 		display: inline-block;
@@ -57,6 +85,7 @@ h4{
 		background-color: #efeded;
 		height: 30px;
 		background: linear-gradient(#efeded 40%, #d6d6d6 60%); 
+		margin-bottom: 0;
 	}
 	ul :first-child{
 		margin-right: 5px;
@@ -103,7 +132,7 @@ h4{
 		background: linear-gradient(to right, #a8a7a3 , #485970); 
 	}
 		#body-about p{
-			padding: 0 20px 10px 20px;
+/*			padding: 0 20px 10px 20px;*/
 			color: white;
 		}
 	.body-bottom-block{
