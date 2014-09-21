@@ -41,9 +41,10 @@ h4{
 }
 #header{
 	width:1000px;
-	height: 200px;
+	min-height: 70px;
 	background-color: #efeded; /*light gray color*/
 	display: block;
+	background: linear-gradient(#efeded 20%, white 80%);
 }
 	#header img{
 		display: inline-block;
@@ -51,6 +52,27 @@ h4{
 		width: 360px;
 		padding-left: 20px;
 	}
+	ul{
+		vertical-align: top;
+		background-color: #efeded;
+		border: solid #c1bbbb 1px;
+		border-top: 0;
+		height: 35px;
+		background: linear-gradient(#efeded 40%, #d6d6d6 60%); 
+	}
+	ul li{
+		display: inline;
+		text-decoration: none;
+		padding: 0 0 0 10px;
+		border-right: solid #c1bbbb 1px; 
+		background: linear-gradient(#efeded 40%, #d6d6d6 60%); 
+		height: 30px;
+	}
+		ul li:last-child{
+		border-right:#c1bbbb;	
+		padding: 0px 20px 0 10px;
+		margin-right: 5px;
+		}
 #body{
 	width:1000px;
 	min-height: 600;
