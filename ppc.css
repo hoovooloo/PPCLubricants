@@ -12,16 +12,16 @@ h1{
 	font-size: 1em;
 	padding: 10px 0 10px 15px;
 	margin: 0;
+	color: black;
 }
 h2{
 	font-size: 1.2em;
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 20px;
-	color:white;
 }
 h3{
-	color: #ffd738; /*YELLOW COLOR*/
+	color: #ffd738; 
 	font-size: .8em;
 	font-weight: normal;
 	padding-left: 30px;
@@ -38,30 +38,15 @@ h4{
 	display: inline-block;
 	padding-right: 30px;
 }
-button{
-	min-height: 30px;
-	min-width: 30px;
-	background-color: #ffd738;
-	font-size: 1em;
-	border: solid black 2px;
-	border-radius: 5px; 
-	padding: 5px 10px 5px 20px;
-	margin:  0 20px 20px 60px;
-}
-.button-margin{
-	margin-bottom: 27px;
-}
 .strong{
 	font-weight: bold;
 }
 #container{ 
     width: 1000px;
-    min-height: 800px;
 }
 #header{
 	width:1000px;
-	min-height: 70px;
-	background-color: #efeded; /*light gray color*/
+	background-color: #efeded; 
 	display: block;
 	background: linear-gradient(#efeded 20%, white 80%);
 	padding: 0;
@@ -80,8 +65,7 @@ button{
 		margin-bottom: 0;
 	}
 	ul :first-child{
-		margin-right: 5px;
-		margin-left: 50px;
+		margin: 0 0 5px 30px;
 	}
 	ul :last-child{
 		margin-right: 5px;
@@ -89,8 +73,7 @@ button{
 	ul li{
 		display: inline-block;
 		text-decoration: none;
-		border-right: solid #c1bbbb 1px; 
-		background: transparent;
+		border-right: solid #c1bbbb 1px;
 		height: 20px;
 		padding: 10px 10px 0 10px;
 	}
@@ -102,16 +85,9 @@ button{
 		}
 #body{
 	width:1000px;
-	min-height: 600;
 	background-color: black;
 	display: block;
 }
-	.small{
-		height: 20px;
-		display: inline-block;
-		vertical-align: top;
-		margin: 5px 0 0 30px;
-	}
 	.big{
 		width:375px;
 		height: 275px;
@@ -119,7 +95,7 @@ button{
 		display: inline-block;
 		vertical-align: top;
 		margin: 20px 20px 20px 30px;
-	}
+	}	
 	#body-about{
 		width: 530px;
 		height: 285px;
@@ -127,12 +103,15 @@ button{
 		display: inline-block;
 		vertical-align: top;
 		margin: 20px 30px 20px 0;
-		background: linear-gradient(to right, #a8a7a3 , #485970); 
+		background: linear-gradient(to right, #a8a7a3 , #485970);
+		color: white;
 	}
-		#body-about p{
-/*			padding: 0 20px 10px 20px;*/
-			color: white;
-		}
+	.small{
+		height: 20px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 5px 0 0 30px;
+	}	
 	.body-bottom-block{
 		width:220px;
 		height: 326px;
@@ -147,12 +126,21 @@ button{
 		.last{
 			margin-right: 30px;
 		}
-		#body p{
-
-		}
 		.body-bottom-block img{
 			width:220px;
 			height:100px;
 			margin: 0;
 		}
-		
+		button{
+			min-height: 30px;
+			min-width: 30px;
+			background-color: #ffd738;
+			font-size: 1em;
+			border: solid black 2px;
+			border-radius: 5px; 
+			padding: 5px 10px 5px 20px;
+			margin:  0 20px 20px 60px;
+		}
+			.button-margin{
+				margin-bottom: 27px;
+			}	
