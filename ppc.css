@@ -44,21 +44,21 @@ button{
 	border-right: 0;
 	border-radius: 5px 0 0 5px; 
 	padding: 5px 10px 5px 20px;
+	margin:  0 20px 20px 50px;
 }
-	button :after{ /*arrow added to rightarrowdiv DIV*/
+	/*button :after{ 
 	content:'';
 	display:block;
 	position:absolute;
 	top:10px;
-	left:100%; /*should be set to 100% */
+	left:100%; 
 	width:0;
 	height:0;
-	border-color: transparent transparent transparent #ffd738; /*border color should be same as div div background color*/
+	border-color: transparent transparent transparent #ffd738; 
 	border-style: solid;
-	border-width: 10px;/*
-	background-color: #ffd738;*/
-}
-
+	border-width: 10px;
+	background-color: #ffd738;
+}*/
 .strong{
 	font-weight: bold;
 }
